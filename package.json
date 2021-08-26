@@ -6,10 +6,12 @@
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "LICENSE",
+    "README.md"
   ],
   "engines": {
-    "node": ">=10"
+    "node": ">=14"
   },
   "scripts": {
     "start": "tsdx watch",
@@ -47,15 +49,45 @@
     }
   ],
   "devDependencies": {
-    "@size-limit/preset-small-lib": "^5.0.3",
+    "@babel/core": "^7.15.0",
     "@types/react": "^17.0.19",
     "@types/react-dom": "^17.0.9",
+    "autoprefixer": "^10.3.2",
     "husky": "^7.0.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "size-limit": "^5.0.3",
+    "rollup-plugin-postcss": "^4.0.1",
     "tsdx": "^0.14.1",
     "tslib": "^2.3.1",
     "typescript": "^4.3.5"
-  }
+  },
+  "dependencies": {
+    "immer": "^9.0.5",
+    "react-is": "^17.0.2",
+    "react-tagsinput": "^3.19.0",
+    "state": "^0.2.0",
+    "zustand": "^3.5.9"
+  },
+  "keywords": [
+    "node",
+    "tsdx",
+    "babel",
+    "husky",
+    "events",
+    "reactjs",
+    "date-fns",
+    "reactjs-events",
+    "reactjs-calender",
+    "event-management",
+    "reactjs-calender-events",
+    "reactjs-event-management"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asmdhabibullah/reactjs-event-management"
+  },
+  "bugs": {
+    "url": "https://github.com/asmdhabibullah/reactjs-event-management/issues"
+  },
+  "homepage": "https://github.com/asmdhabibullah/reactjs-event-management#readme"
 }

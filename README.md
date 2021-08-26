@@ -15,16 +15,16 @@ npm install --save reactjs-event-management
 ```tsx
 import React, { Component } from 'react'
 
-import ReactEventCalender from 'reactjs-event-management'
+import EeactjsEventManagement from 'reactjs-event-management'
 import 'event-management/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <ReactEventCalender /> // Events as a object and others parameter
+    return <EeactjsEventManagement /> // Events as a object and others parameter
   }
 }
 ```
 
 ## License
 
-MIT © [https://github.com/asmdhabibullah/reactjs-event-management.git](https://github.com/https://github.com/asmdhabibullah/event-management.git)
+MIT © [https://github.com/asmdhabibullah/reactjs-event-management/blob/main/LICENSE](https://github.com/asmdhabibullah/reactjs-event-management/blob/main/LICENSE)
