@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Automated Version
         uses: phips28/gh-action-bump-version@v8.0.18
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - name: Node setup ${{ matrix.node-version }}
         uses: actions/setup-node@v2
         with:
